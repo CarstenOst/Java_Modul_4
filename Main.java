@@ -11,8 +11,10 @@ public class Main {
     public static void main(String[] args) {
 
         StackOfCards enKortStokk = new StackOfCards();
-        DeckOfCardsArrayList k = new DeckOfCardsArrayList();
+        DeckOfCardsArrayList enKortStokkAList = new DeckOfCardsArrayList();
 
+        //enKortStokkAList.printDeck();
+        staticMethods.printCardArrayList(enKortStokkAList.getKortStokk());
         //enKortStokk.cardShuffle(6);
         //enKortStokk.printStackOfCards();
 
