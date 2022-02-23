@@ -1,9 +1,8 @@
 import java.util.Random;
 
 public class StackOfCards {
-
     // Fields
-    private int maxCards;
+    final private int maxCards;
     private Card[] kortStokk;
 
     // Constructor
